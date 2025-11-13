@@ -5,7 +5,7 @@
                 <li class="nav-item {{ $link['is_active'] ? active : '' }}">
                     <a data-bs-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
                         <i class="{{ $link['icon'] }}"></i>
-                        <p>{{ $link['label'] }}</p>
+                        <p>{{ $link['name'] }}</p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="dashboard">
@@ -22,7 +22,7 @@
                 <li class="nav-item {{ $link['is_active'] ? active : '' }}">
                     <a href="widgets.html">
                         <i class="{{ $link['icon'] }}"></i>
-                        <p>{{ $link['label'] }}</p>
+                        <p>{{ $link['name'] }}</p>
                     </a>
                 </li>
             @endif

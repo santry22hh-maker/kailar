@@ -14,7 +14,7 @@ class Sidebarku extends Component
     {
         $this->links = [
             [
-                'label' => 'Dashboard',
+                'name' => 'Dashboard',
                 'icon' => 'fas fa-home',
                 'rute' => 'Dashboard',
                 'is_dropdown' => false,
