@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components\klarifikasi;
+namespace App\View\Components\Klarifikasi;
 
 use Closure;
 use Illuminate\Contracts\View\View;
